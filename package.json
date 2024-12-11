@@ -1,0 +1,30 @@
+{
+  "name": "aymenae",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CLI business card for AymenAE",
+  "main": "index.js",
+  "bin": {
+    "aymenae": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aymenae-businesscard"
+  },
+  "keywords": [
+    "business",
+    "card",
+    "cli",
+    "aymenae"
+  ],
+  "author": "Aymen Ebrahim",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0"
+  }
+}
